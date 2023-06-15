@@ -1,0 +1,4 @@
+idx2numpy
+numpy
+matplotlib
+tensorflow
