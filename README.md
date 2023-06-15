@@ -9,12 +9,23 @@ Clone the repo and install the dependencies with
 pip install -r requirements.txt
 ```
 
-Download the MNIST data from the link below and place all 4 ubyte files in a folder called *data*. Label them *training_images*, *training_labels*, *test_images* and *test_labels* accordingly. Run the mnist_nn module to test the custom neural network and measure its performance. Run
+Download the MNIST data from the link below and place all 4 ubyte files in a folder called *data*. Label them *training_images*, *training_labels*, *test_images* and *test_labels* accordingly. Run the mnist_nn module to test the custom neural network and measure its performance. Run the mnist_tf module to test a Tensorflow implementation of the same neural network architecture on the MNIST data as a comparison.
+
+```
+python3 mnist_nn.py
+```
+
+```
+python3 mnist_tf.py
+```
 
 ## Pictures
-![](images/xor.png)
-![](images/mnist_nn.png)
-![](images/mnist_tf.png)
+<div align="center">
+  <img src="results.png">
+</div>
+<p align="center">
+  Results of the neural network implementation.
+</p>
 
 ## Technologies
 - ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
